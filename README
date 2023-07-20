@@ -1,0 +1,32 @@
+Synthetic US 82,000-bus power system model.
+
+This is an entirely synthetic 82,000 bus case, geographically covering
+the continental US. It was created by combining case_ACTIVSg70k (eastern
+US), case_ACTIVSg10k (western US) and case_ACTIVSg2k (Texas), connecting
+the 3 interconnections with nine DC lines. The load in the network
+roughly mimics the actual population of its geographic footprint. The
+synthetic transmission system was designed by algorithms described in
+[1] to be statistically similar to actual transmission system models
+but without modeling any actual lines.
+
+When publishing results based on this data, please cite:
+
+[1] A.B. Birchfield, T. Xu, K.M. Gegner, K.S. Shetye, T.J. Overbye,
+    "Grid Structural Characteristics as Validation Criteria for
+    Synthetic Networks," IEEE Transactions on Power Systems,
+    vol. 32, no. 4, pp. 3258-3265, July 2017.
+    doi: 10.1109/TPWRS.2016.2616385
+
+[2] A.B. Birchfield, T. Xu, and T.J. Overbye, "Power Flow Convergence
+    and Reactive Power Planning in the Creation of Large Synthetic Grids,"
+    IEEE Transactions on Power Systems, 2018.
+    doi: 10.1109/TPWRS.2018.2813525
+
+This is a synthetic power system model that does not represent the
+actual grid. It was developed as part of the US ARPA-E GRID DATA
+research project and contains no CEII.
+
+One-line diagrams and other data formats available at:
+    https://electricgrids.engr.tamu.edu
+
+May 31, 2018
